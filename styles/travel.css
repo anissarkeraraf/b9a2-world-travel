@@ -1,8 +1,6 @@
 /* header section styles */
-.all {
-    width: 1000px;
-    height: 16900px;
-    padding: 30px 130px;
+body {
+    padding: 50px;
 }
 
 .nav-section {
@@ -10,23 +8,15 @@
     justify-content: space-between;
 }
 
+
 nav,
 ul,
-.img {
+.logo {
     display: flex;
     align-items: center;
-
+    margin-left: -40px;
 }
 
-.img {
-    position: relative;
-    right: 70px;
-}
-
-ul {
-    position: relative;
-    left: 120px;
-}
 
 nav,
 li {
@@ -56,10 +46,8 @@ li>a {
     background: linear-gradient(rgba(19, 19, 19, 0.80), rgba(19, 19, 19, 0.00)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     align-items: center;
     position: relative;
-    right: 30px;
-    width: 1170px;
-    height: 500px;
     border-radius: 15px;
+    background-size: cover;
 }
 
 .img-banner {
@@ -75,5 +63,78 @@ li>a {
 .img-description {
     color: #FFF;
     font-size: 16px;
-    
+
+}
+
+.btn-section {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    bottom: 70px;
+    left: 200px;
+}
+
+.btn-first {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    text-align: start;
+    padding-left: 30px;
+    border-radius: 8px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.btn-search {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: #FF5400;
+    color: #FFF;  
+}
+
+/* popular tour styles */
+.popular-tour{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.btn-read{
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 14px 30px;
+    border: none;
+}
+.btn-read-more{
+    padding-top: 25px;
+}
+
+.fa-solid{
+    font-size: 7px;
+}
+.description{
+    text-align:justify;
+    width: 450px;
 }
