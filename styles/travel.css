@@ -63,6 +63,7 @@ li>a {
 .img-description {
     color: #FFF;
     font-size: 16px;
+    padding-left: 100px;
 
 }
 
@@ -71,9 +72,10 @@ li>a {
     padding: 16px;
     align-items: flex-start;
     gap: 24px;
-    position: relative;
-    bottom: 70px;
-    left: 200px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 }
 
 .btn-first {
@@ -108,18 +110,18 @@ li>a {
     border-radius: 8px;
     border: none;
     background: #FF5400;
-    color: #FFF;  
+    color: #FFF;
 }
 
 /* popular tour styles */
-.popular-tour{
+.popular-tour {
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
     gap: 100px;
 }
 
-.btn-read{
+.btn-read {
     background-color: #FF5400;
     color: #FFF;
     font-size: 20px;
@@ -127,14 +129,243 @@ li>a {
     padding: 14px 30px;
     border: none;
 }
-.btn-read-more{
+
+.btn-read-more {
     padding-top: 25px;
 }
 
-.fa-solid{
+.fa-solid {
     font-size: 7px;
 }
-.description{
-    text-align:justify;
+
+.description {
     width: 450px;
+}
+
+.popular-tour,
+p {
+    text-align: justify;
+}
+
+.tittle {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tittle-dec {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+}
+
+/* ber section */
+.menu {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+    display: none;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+}
+
+/* all image section */
+
+.destination {
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+}
+
+.dec-description {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+}
+
+.img1-2 {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.image-3-4-5 {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.image-6-7 {
+    display: flex;
+    gap: 30px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+/* main section styles */
+.Vacation {
+    text-align: center;
+}
+
+.Vacation-tittle {
+    color: #131318;
+    font-size: 40px;
+}
+
+.Vacation-des {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    text-align: center;
+    width: 646px;
+    margin-left: 270px;
+}
+
+.Vacation-hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.Vacation-location {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.Vacation-description {
+    color: #5A5A5D;
+    font-size: 15px;
+    width: 486px;
+}
+
+.Vacation-hotel-location {
+    display: flex;
+    margin-left: 45px;
+    gap: 20px;
+}
+
+.vacation-price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .nav-section,
+    .btn-section,
+    .popular-tour {
+        flex-direction: column;
+    }
+
+    .rectangle {
+        width: 100%;
+    }
+
+    nav,
+    ul {
+        display: none;
+    }
+
+    #world {
+        font-size: 25px;
+    }
+
+    .btn-section {
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin-left: -120px;
+
+    }
+
+    .img1-2,
+    .image-3-4-5,
+    .image-6-7 {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .image1-2 {
+        width: 150%;
+        height: 50%;
+    }
+
+
+
+
+    .img-banner {
+        padding: 10px 20px;
+    }
+
+    .img-tittle,
+    .tittle {
+        font-size: 20px;
+    }
+
+
+    .img-description {
+        padding-left: 10px;
+    }
+
+    .menu {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 15px;
+        cursor: none;
+        text-align: right;
+        position: relative;
+        margin-top: 30px;
+        padding-left: 40px;
+
+    }
+
+    .bar {
+        width: 30px;
+        height: 4px;
+        background-color: #333;
+    }
+
+    .manu-flex {
+        display: flex;
+        margin-left: 30px;
+        cursor: none;
+    }
+
+    .destination {
+        font-size: 25px;
+    }
 }
