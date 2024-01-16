@@ -1,5 +1,10 @@
 /* header section styles */
-body {
+.header,
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.section-5 {
     padding: 50px;
 }
 
@@ -179,6 +184,17 @@ p {
 }
 
 /* all image section */
+.country-1, .country-2, .country-3, .country-4, .country-5, .country-6, .country-7{
+    color: #fffefe;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    bottom: 200px;
+}
 
 .destination {
     text-align: center;
@@ -197,21 +213,19 @@ p {
     gap: 30px;
     align-items: center;
     margin-top: 50px;
-    margin-left: 30px;
 }
 
 .image-3-4-5 {
     display: flex;
     gap: 30px;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-top: -60px;
 }
 
 .image-6-7 {
     display: flex;
     gap: 30px;
-    margin-left: 35px;
-    margin-top: 20px;
+    margin-top: -60px;
+    margin-bottom: -200px;
 }
 
 /* main section styles */
@@ -430,6 +444,7 @@ input[type="button"] {
     color: #FFF;
     text-align: center;
     padding: 10px 80px;
+    border: none;
 }
 
 .rotate-tittle {
@@ -442,6 +457,44 @@ input[type="button"] {
     font-size: 20px;
 }
 
+/* Footer styles */
+.footer-section {
+    width: 100%;
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-img,
+.footer-description {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer-tittlel {
+    padding: 50px 600px 15px;
+}
+
+.fa-facebook-f {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fa-github {
+    margin-left: 20px;
+}
+
+.hr {
+    margin: 40px 350px;
+}
+
+.last-description {
+    padding: 50px 500px 100px 500px;
+}
 
 
 
@@ -473,8 +526,9 @@ input[type="button"] {
     }
 
     .btn-section {
-        margin-left: 50px;
+        margin-left: 95px;
         margin-bottom: 10px;
+
     }
 
     .logo {
@@ -482,18 +536,19 @@ input[type="button"] {
 
     }
 
-    .img1-2,
-    .image-3-4-5,
-    .image-6-7 {
-        flex-direction: column;
-        margin: 0;
-    }
 
-    .image1-2 {
-        width: 150%;
-        height: 50%;
-    }
 
+    .header,
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4,
+    .section-5 {
+        padding: 5px;
+    }
+    .section-4{
+        margin-top: 30px;
+    }
 
 
 
@@ -545,5 +600,187 @@ input[type="button"] {
     .deal-img-container {
         width: 300px;
 
+    }
+
+    .img1-2,
+    .image-3-4-5,
+    .image-6-7 {
+        flex-direction: column;
+    }
+    .image-one {
+        width: 100%;
+        height: 175px;
+        border-radius: 10px;
+        border-radius: 16px;
+        margin-bottom: -100px;
+    }
+    .image-2{
+        width: 100%;
+        height: 175px;
+        border-radius: 10px;
+        border-radius: 16px;
+        margin-top: -150px;
+    }
+    .image-3 {
+        width: 100%;
+        height: 175px;
+        border-radius: 10px;
+        border-radius: 16px;
+        margin-top:-55px ;
+    }
+
+    .image-4 {
+        width: 100%;
+        height: 175px;
+        border-radius: 10px;
+        border-radius: 16px;
+        margin-top: -150px;
+    }
+    .image-5 {
+        width: 100%;
+        height: 175px;
+        border-radius: 10px;
+        border-radius: 16px;
+        margin-top: -200px;
+    }
+    .image-6 {
+        width: 100%;
+        height: 175px;
+        border-radius: 10px;
+        border-radius: 16px;
+        margin-top: -70px;
+    }
+    .image-7 {
+        width: 100%;
+        height: 175px;
+        border-radius: 10px;
+        border-radius: 16px;
+        margin-bottom: 100px;
+        margin-top: -160px;
+    }
+
+    .Vacation-des {
+        font-size: 16px;
+        text-align: center;
+        width: 440px;
+        margin-left: -20px;
+    }
+
+    .Vacation-hotel-location {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .Vacation-hotel {
+        width: 100%;
+        height: 290px;
+    }
+
+    .Vacation-location {
+        width: 100%;
+        height: 290px;
+    }
+
+    .vacation-price {
+        width: 100%;
+    }
+
+    .Vacation-description {
+        font-size: 15px;
+        width: 271px;
+    }
+
+    .form-section {
+        flex-direction: column;
+        margin-top: 70px;
+        margin-left: 0;
+    }
+
+    .form-description {
+        margin-top: 50px;
+        width: 300px;
+    }
+
+    .form-or-input {
+        font-size: 16px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        width: 100%;
+        height: 350px;
+        padding-left: 15px;
+    }
+
+    .form-tittle {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .form-image-section {
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
+
+    .section-5 {
+        padding: 5px;
+    }
+
+    .rotate-section {
+        transform: rotate(-15.628deg);
+    }
+
+    .rotate-tittle {
+        color: #FFF;
+        font-size: 16px;
+    }
+
+    .rotate-tittle-2 {
+        color: #FFF;
+        font-size: 16px;
+    }
+
+    .rotate-btn {
+        position: relative;
+        height: 120px;
+        width: 200px;
+        padding: 0 0;
+        margin-left: 300px;
+        top: 70px;
+        left: 170px;
+    }
+    .country-1{
+        position: relative;
+        margin-top: 200px;
+    }
+    .country-2{
+        position: relative;
+        margin-top: 80px;
+    }
+    .country-3{
+        position: relative;
+        margin-top: 70px;
+    }
+    .country-4{
+        position: relative;
+        margin-top: 80px;
+    }
+    .country-5{
+        position: relative;
+        margin-top: 80px;
+    }
+    .country-6{
+        position: relative;
+        margin-top: 80px;
+    }
+    .country-7{
+        position: relative;
+        margin-top: -15px;
     }
 }
