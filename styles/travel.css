@@ -276,6 +276,179 @@ p {
     padding-top: 30px;
 }
 
+/* #deal-tittle {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.img-card {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    position: relative;
+    bottom: 450px;
+    left: 500px;
+}
+.img-card-2{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    position: relative;
+    bottom: 830px;
+    left: 80px;
+}
+.img-card-3{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    position: relative;
+    bottom: 400px;
+    left: 500px;
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icon-frame {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.image-group-39{
+    margin-left: 40px;
+
+}
+.deal{
+    margin-bottom: 100px;
+}
+
+
+.icon-tittle {
+    color: #5A5A5D;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-now {
+    padding: 15px 25px;
+    border-radius: 8px;
+    background: #FF5400;
+    border:none;
+}
+.tour-malaysia{
+    padding-left: 50px;
+
+}
+.btn-tittle{
+    padding-left: 0;
+}
+.tour-tittle{
+    width: 452px;
+}
+.image-group-40{
+    position: relative;
+    bottom: 380px;
+    left: 43px;
+}
+#card-two{
+    position: relative;
+    right: 300px;
+}
+
+ */
+
+.form-tittle {
+    color: #131318;
+    font-size: 24px;
+}
+
+.form-description {
+    color: #5A5A5D;
+    font-size: 16px;
+    width: 350px;
+}
+
+/* input section */
+.input-one {
+    margin-bottom: 10px;
+}
+
+.input-two {
+    margin-bottom: 10px;
+}
+
+input[type=text] {
+    padding: 8px 90px 8px 15px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+
+}
+
+input[type="button"] {
+    padding: 8px 107px;
+    color: #FFF;
+    background-color: #FF5400;
+    border-radius: 10px;
+    border: none;
+}
+
+.form-section {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.form-image-section {
+    margin-left: 100px;
+}
+
+.rotate-section {
+    position: relative;
+    top: 200px;
+    right: 280px;
+    width: 324px;
+    height: 180px;
+    transform: rotate(-19.628deg);
+}
+
+.rotate-btn {
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    color: #FFF;
+    text-align: center;
+    padding: 10px 80px;
+}
+
+.rotate-tittle {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.rotate-tittle-2 {
+    color: #FFF;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:600px) {
@@ -367,5 +540,10 @@ p {
 
     .destination {
         font-size: 25px;
+    }
+
+    .deal-img-container {
+        width: 300px;
+
     }
 }
