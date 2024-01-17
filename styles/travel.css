@@ -4,7 +4,9 @@
 .section-2,
 .section-3,
 .section-4,
-.section-5 {
+.section-5,
+.section-6
+{
     padding: 50px;
 }
 
@@ -184,7 +186,13 @@ p {
 }
 
 /* all image section */
-.country-1, .country-2, .country-3, .country-4, .country-5, .country-6, .country-7{
+.country-1,
+.country-2,
+.country-3,
+.country-4,
+.country-5,
+.country-6,
+.country-7 {
     color: #fffefe;
     text-align: center;
     font-family: Mulish;
@@ -496,8 +504,28 @@ input[type="button"] {
     padding: 50px 500px 100px 500px;
 }
 
-
-
+/* Unique Section */
+.section-6 {
+    display: flex;
+    margin-left:380px;
+}
+.unique-img {
+    border: 2px solid red;
+    padding: auto;
+}
+.unique-img:hover{
+    transform: rotate(-30deg);
+    width: 100%;
+}
+.unique-container{
+    background-color: burlywood;
+    border: 2px solid yellow;
+}
+.unique-des {
+    color: #5A5A5D;
+    width: 500px;
+    text-align: center;
+}
 
 
 
@@ -546,7 +574,8 @@ input[type="button"] {
     .section-5 {
         padding: 5px;
     }
-    .section-4{
+
+    .section-4 {
         margin-top: 30px;
     }
 
@@ -607,6 +636,7 @@ input[type="button"] {
     .image-6-7 {
         flex-direction: column;
     }
+
     .image-one {
         width: 100%;
         height: 175px;
@@ -614,19 +644,21 @@ input[type="button"] {
         border-radius: 16px;
         margin-bottom: -100px;
     }
-    .image-2{
+
+    .image-2 {
         width: 100%;
         height: 175px;
         border-radius: 10px;
         border-radius: 16px;
         margin-top: -150px;
     }
+
     .image-3 {
         width: 100%;
         height: 175px;
         border-radius: 10px;
         border-radius: 16px;
-        margin-top:-55px ;
+        margin-top: -55px;
     }
 
     .image-4 {
@@ -636,6 +668,7 @@ input[type="button"] {
         border-radius: 16px;
         margin-top: -150px;
     }
+
     .image-5 {
         width: 100%;
         height: 175px;
@@ -643,6 +676,7 @@ input[type="button"] {
         border-radius: 16px;
         margin-top: -200px;
     }
+
     .image-6 {
         width: 100%;
         height: 175px;
@@ -650,6 +684,7 @@ input[type="button"] {
         border-radius: 16px;
         margin-top: -70px;
     }
+
     .image-7 {
         width: 100%;
         height: 175px;
@@ -755,32 +790,55 @@ input[type="button"] {
         top: 70px;
         left: 170px;
     }
-    .country-1{
+
+    .country-1 {
         position: relative;
         margin-top: 200px;
     }
-    .country-2{
+
+    .country-2 {
         position: relative;
         margin-top: 80px;
     }
-    .country-3{
+
+    .country-3 {
         position: relative;
         margin-top: 70px;
     }
-    .country-4{
+
+    .country-4 {
         position: relative;
         margin-top: 80px;
     }
-    .country-5{
+
+    .country-5 {
         position: relative;
         margin-top: 80px;
     }
-    .country-6{
+
+    .country-6 {
         position: relative;
         margin-top: 80px;
     }
-    .country-7{
+
+    .country-7 {
         position: relative;
         margin-top: -15px;
+    }
+    .section-6{
+        margin-top: 150px;
+        margin-left:-40px;
+    }
+    
+    .unique-img:hover{
+        transform: rotate(-30deg);
+    }
+
+    .unique-des {
+        width: 400px;
+        text-align: center;
+    }
+    .unique-img {
+        width: 100%;
     }
 }
